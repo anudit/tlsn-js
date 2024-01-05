@@ -45,6 +45,7 @@ module.exports = [
     },
     output: {
       path: __dirname + '/build',
+      publicPath: '',
       filename: `[name].js`,
       libraryTarget: 'umd',
       globalObject: 'this',
